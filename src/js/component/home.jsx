@@ -5,12 +5,15 @@ import Card from "./Card.jsx";
 const Home = (props) => {
 	return (
 		<div>
-			<div className="container">
+			<div className="container bg-counter">
 				<div className="row">
-					<div className="col">{props.digitOne}</div>
-					<div className="col">
-						<Card />
+					<div className="col counter icono">
+						<i className="far fa-clock"></i>
 					</div>
+					<div className="col counter">{props.digitFour}</div>
+					<div className="col counter">{props.digitThree}</div>
+					<div className="col counter">{props.digitTwo}</div>
+					<div className="col counter">{props.digitOne}</div>
 				</div>
 			</div>
 		</div>
