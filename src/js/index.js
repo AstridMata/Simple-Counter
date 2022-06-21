@@ -7,7 +7,6 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-import Card from "./component/Card.jsx";
 
 let sec = 0;
 setInterval(() => {
